@@ -225,7 +225,7 @@ $(function() {
   socket.on('login', (data) => {
     connected = true;
     // Display the welcome message
-    const message = 'Welcome to Socket.IO Chat – ';
+    const message = 'Welcome to Anonim Chat – ';
     log(message, {
       prepend: true
     });
@@ -274,5 +274,4 @@ $(function() {
   socket.on('reconnect_error', () => {
     log('attempt to reconnect has failed');
   });
-
 });
